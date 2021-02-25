@@ -1,10 +1,6 @@
 # Stock Trading Algo Project:
-Preliminarily, our project will evaluate significant deviations in volume and pricing data of S&P stocks and options. We endeavor to build, train and test a model that will be utilized to determine the buy, hold, sell recommendation of stock symbols ingested by AWS Lex.  
+Preliminarily, our project will evaluate significant deviations in volume and pricing data of S&P500 stocks and options. We endeavor to build, train and test a model that will be utilized to determine the buy, hold, sell recommendation of S&P500 stock symbols ingested by AWS Lex.  
 
-## Key Points:
-    * Data or subject area used: Financial Stock and Options data will be used for our project.
-    * Data to be queried: Significant Volume & Price movement for starters. Additional data points will be identified
-    * Below Data Sets to be utilized
 
 ## Data Sets, Packages/Libraries and Visualization:
 1. https://rapidapi.com/alphavantage/api/alpha-vantage - Potential Stock & option data
