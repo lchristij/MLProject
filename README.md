@@ -1,5 +1,5 @@
 # Stock Trading Algo Project:
-Preliminarily, our project will evaluate significant deviations in volume and pricing data of S&P500 stocks and options. We endeavor to build, train and test a model that will be utilized to determine the buy, hold, sell recommendation of S&P500 stock symbols ingested by AWS Lex.  
+Our goal is to build a model consisting of multiple features applied to a basket of S&P500 stocks for purposes of determining which are significant for producing positive returns.  The significant features will then be used as an input in the algorithm to determine which stocks should be bought or sold. 
 
 
 ## Data Sets, Packages/Libraries and Visualization:
