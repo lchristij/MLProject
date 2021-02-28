@@ -1,14 +1,11 @@
 # Stock Trading Algo Project:
-Our goal is to build a model consisting of multiple features applied to a basket of S&P500 stocks for purposes of determining which are significant for producing positive returns.  The significant features will then be used as an input in the algorithm to determine which stocks should be bought or sold. 
+Our goal is to use Alpaca stock data to build a model consisting of multiple features applied to a stock for purposes of determining which are significant for producing positive returns.  The significant features will then be used as an input in the algorithm to determine whether a stock captured by AWS Lex should be bought or sold.
 
 
 ## Data Sets, Packages/Libraries and Visualization:
-1. https://rapidapi.com/alphavantage/api/alpha-vantage - Potential Stock & option data
-2. https://www.quandl.com/tools/api - Potential Stock & option data
-3. https://intrinio.com/ - Potential Stock & option data
-4. ninjatrader.com - Potential Stock & option data
-5. https://www.quantconnect.com/ - Potential Stock & option data
-6. https://app.alpaca.markets/paper/dashboard/overview - Potential Stock & option data
+1. https://app.alpaca.markets/paper/dashboard/overview - 5yrs of Stock Data consisting of last trade, last quote, 1-30min, 1-4hrs, daily, weekly and monthly bar data.
+2. https://www.kaggle.com/ - Relative Strength Index and Moving Average Convergence & Divergence Technical Indicator Data
+3. Sklearn ensemble Random Forest Classifier, make_classification dataset, confusion matrix, accuracy score, classification report, train_test_split and Standard Scaler
 
 
 ### Based on .....
