@@ -5,7 +5,7 @@ Our goal is to use Alpaca stock data to build a model consisting of multiple fea
 ## Data Sets, Packages/Libraries and Visualization:
 1. https://app.alpaca.markets/paper/dashboard/overview - 5yrs of Stock Data consisting of last trade, last quote, 1-30min, 1-4hrs, daily, weekly and monthly bar data.
 2. https://www.kaggle.com/ - Relative Strength Index and Moving Average Convergence & Divergence Technical Indicator Data
-3. Sklearn ensemble Random Forest Classifier, make_classification dataset, confusion matrix, accuracy score, classification report, train_test_split and Standard Scaler
+3. Sklearn ensemble Random Forest Classifier, make_classification dataset, confusion matrix, accuracy score, classification report, train_test_split and Standard Scaler, Pathlib, Pandas, Numpy, Joblib
 
 
 ### Based on .....
