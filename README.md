@@ -25,13 +25,13 @@ Utilizing Alpaca's API to pull in daily closing price data of the S&P500, we dev
 - Generate accuracy and loss metrics
 
 
-Accuracy Plot:
 ![](https://github.com/lchristij/MLProject/blob/main/images/accuracy.png)
+Accuracy Plot:
 
-Loss Plot:
 ![](https://github.com/lchristij/MLProject/blob/main/images/loss.png)
 ![](https://github.com/lchristij/MLProject/blob/main/images/metrics.png)
+Loss Plot:
 
 
-Returns:
 ![](https://github.com/lchristij/MLProject/blob/main/images/returns.png)
+Returns:
