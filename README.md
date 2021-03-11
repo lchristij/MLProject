@@ -1,25 +1,30 @@
-# Stock Trading Algo Project:
-Our goal is to use Alpaca stock data to build a model consisting of multiple features applied to a stock for purposes of determining which are significant for producing positive returns.  The significant features will then be used as an input in the algorithm to determine whether a stock captured by AWS Lex should be bought or sold.
+# Machine Learning Project: Utilizing Stock Signals to Predict Future Price
+Utilizing Alpaca's API to pull in daily closing price data of the S&P500, we developed a machine learning model consisting of five features to determine the model's ability of achieving the target of producing positive returns.
 
 
 ## Data Sets, Packages/Libraries and Visualization:
-1. https://app.alpaca.markets/paper/dashboard/overview - 5yrs of Stock Data consisting of last trade, last quote, 1-30min, 1-4hrs, daily, weekly and monthly bar data.
-2. https://www.kaggle.com/ - Relative Strength Index and Moving Average Convergence & Divergence Technical Indicator Data
-3. Sklearn ensemble Random Forest Classifier, make_classification dataset, confusion matrix, accuracy score, classification report, train_test_split and Standard Scaler, Pathlib, Pandas, Numpy, Joblib
+1. https://app.alpaca.markets/paper/dashboard/overview - 3yrs of Stock Data consisting of last trade, last quote, 1-30min, 1-4hrs, daily, weekly and monthly bar data.
+2. Sklearn ensemble Random Forest Classifier, make_classification dataset, confusion matrix, accuracy score, classification report, train_test_split and Standard Scaler, Pathlib, Pandas, Numpy, Joblib, TensorFlow.
 
 
-### Based on .....
-We establish that ......
+### Key Questions:
+1. How much of an impact does leading and/or lagging indicators have on stock returns?
+2. Can the modeled data effectively improve accuracy over time given enough pricing data?
+3. Can the modeled data effectively minimize losses over time with additional features?
+4. Are there features that could be applied to depressed stocks which would produced positive returns?
+5. What impact would the model have on stocks with low volatility?
 
-<!---Historical Precedence via TradingView:
-![](https://github.com/lchristij/MLProject/blob/main/images/somepic.png)--->
+<!---Accuracy Plot:
+![](https://github.com/lchristij/MLProject/blob/main/images/accuracy.png)--->
 
 
-### Given an initial investment amount of $10,000 and assuming a holding period of .....
-
-Provided the above assumptions, we ......
-
-### Can we iteratively improve the confidence interval of our recommendations through additional Time Series Analysis, NLP, and Machine Learning?
-We identified several areas for improvement through our development process. The first was ......
+### Methods used in the Machine Learning Project:
+- Assign Training and testing windows
+- Split x & y training dataset
+- Setup Neural Network using Sklearn pre-processing, model_selection & TensorFlow using keras layers and models
+- Standard Scaler
+- Compile the model
+- fit the training data set
+- Generate accuracy and loss metrics
 
 
