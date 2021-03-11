@@ -14,8 +14,8 @@ Utilizing Alpaca's API to pull in daily closing price data of the S&P500, we dev
 4. Are there features that could be applied to depressed stocks which would produced positive returns?
 5. What impact would the model have on stocks with low volatility?
 
-<!---Accuracy Plot:
-![](https://github.com/lchristij/MLProject/blob/main/images/accuracy.png)--->
+Accuracy Plot:
+![](https://github.com/lchristij/MLProject/blob/main/images/accuracy.png)
 
 
 ### Methods used in the Machine Learning Project:
